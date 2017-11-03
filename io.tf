@@ -31,8 +31,8 @@ variable "instance-type" {
   default = {
     bastion = "t2.nano"
     pki = "t2.nano"
-    etcd = "m3.large"
-    worker = "m3.large"
+    etcd = "t2.nano"
+    worker = "t2.nano"
   }
 }
 variable "internal-tld" {}
